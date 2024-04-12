@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cmdemir/1-qr-code-component.git)
-- Live Site URL: [Add live site URL here](https://1-qr-code-component.vercel.app/)
+- Solution URL: [Add solution URL here](git@github.com:cmdemir/3-blogger-card.git)
+- Live Site URL: [Add live site URL here](https://3-blogger-card.vercel.app/)
 
 ## My process
 
