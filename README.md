@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Blogger Card Responsive Site
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 
 
-<img src="./design/3-blogger.png">
+<img src="./design/3-blogger-card.png">
 
 
 
