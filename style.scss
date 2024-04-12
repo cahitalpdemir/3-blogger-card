@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+$bgcolor: black;
+$textcolor: hsl(0, 0%, 100%);
+$fontsize: 14px;
+$bgblack: hsl(0, 0%, 8%);
+$bgdarkgrey: hsl(0, 0%, 12%);
+$bggrey: hsl(0, 0%, 20%);
+$color-green: hsl(75, 94%, 57%);
+
+.center-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: $bgblack;
+    color: $textcolor;
+    font-size: $fontsize;
+    font-family: 'Inter';
+    @extend .center-all
+
+  
+}
+
+    p{
+    font-size: 14px;
+    margin-bottom: 2px;
+
+    }
+.cardDiv {
+ 
+    height: 550px;
+    background-color: $bgdarkgrey;
+    border-radius: 10px;
+    border: 1px solid $bgdarkgrey;
+    min-width: 300px;
+    max-width: 350px;
+   
+    .cardDiv-profil {
+        @extend .center-all;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 33px;
+    }
+
+
+    .profil-avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    }
+
+    .profil-adress {
+        font-size: 12px;
+        filter: brightness(0.8);
+        font-weight: 700;
+        color: $color-green;
+        margin-top: 10px;
+        
+    }
+    .profil-name {
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .profil-info {
+        font-size: 13px;
+        color: white;
+        font-weight: 200;
+        margin-top: 22px;
+    }
+    .cardDiv-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:38px ;
+        
+    }
+}
+
+.button{
+   @extend .center-all;
+    width: 275px;
+    height:40px;
+    font-size: 14px;
+    color: white;
+    background: $bggrey;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    
+    &:hover{
+        filter: brightness(1.2);
+    }
+
+}
